@@ -36,6 +36,7 @@ occupation, count(*) c from personCube group by birthdate, fromdate, street, str
 - [x] __Create indexes for Cube__
 
 create index idx1 on matPersonCube(children, fromdate, job);
+
 create index idx2 on matPersonCube(children, lat, lon, street, strnro);
 
 - [x] __Distribution of changing address__
