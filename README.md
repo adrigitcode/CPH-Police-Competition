@@ -1,14 +1,20 @@
 # CPH Police Competition - [IT University of Copenhagen](https://en.itu.dk/)
 
+&nbsp;
+
 ### SQL queries on the Copenhagen Police Records
 
-Award in the category 'Most interesting historical fact' 🏆
+Award in the category 'Most interesting historical fact'  🏆
 
 I wanted to know if the number of changing address has a relation with the number of children on average. Also, if people have preferences in living in some areas depending on the number of children they have.
 
 Variable names have been changed and some details are hidden due to confidentiality and preservation of data privacy.
 
+&nbsp;
+
                                                 _ _ _---|Queries|---_ _ _
+
+&nbsp;
 
 - [x] __Creating a view__
 
@@ -43,6 +49,8 @@ desc;
 
 select round(avg(children)) as avgChildren, lat, lon, street, strnro from matPersonCube where lat is NOT NULL and
 lon is NOT NULL and year(fromdate) = 2000 group by lat, lon, street order by round(avg(children)) desc;
+
+&nbsp;
 
                                                 _ _ _---|Results|---_ _ _
   &nbsp;
