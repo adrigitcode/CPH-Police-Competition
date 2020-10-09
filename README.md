@@ -1,4 +1,4 @@
-# CPH Police Competition - IT University of Copenhagen
+# CPH Police Competition - [IT University of Copenhagen](https://en.itu.dk/)
 
 ### SQL queries on the Copenhagen Police Records
 
