@@ -6,7 +6,7 @@ Award in the category 'Most interesting historical fact'  🏆
 
 I wanted to know if the number of changing address has a relation with the number of children on average. Also, if people have preferences in living in some areas depending on the number of children they have.
 
-Variable names have been changed and some details are hidden due to confidentiality and preservation of data privacy.
+Variable names are changed and some details hidden due to confidentiality and preservation of data privacy.
 
 &nbsp;
 
