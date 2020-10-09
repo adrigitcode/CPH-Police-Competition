@@ -1,7 +1,5 @@
 # CPH Police Competition - [IT University of Copenhagen](https://en.itu.dk/)
 
-&nbsp;
-
 ### SQL queries on the Copenhagen Police Records
 
 Award in the category 'Most interesting historical fact'  🏆
