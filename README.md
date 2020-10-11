@@ -2,11 +2,15 @@
 
 ### SQL queries on the Copenhagen Police Records
 
-Award in the category 'Most interesting historical fact'  🏆
+.: Award in the category 'Most interesting historical fact'  🏆 :.
 
-I wanted to know if the number of changing address has a relation with the number of children on average. Also, if people have preferences in living in some areas depending on the number of children they have.
+I was not expecting this honor during the ceremony, although I did have fun and tried my best when answering. 
 
-Variable names are changed and some details hidden due to confidentiality and preservation of data privacy.
+Forever grateful to professor [Rasmus Pagh](http://www.itu.dk/people/pagh/) and Jeppe Christensen from The Copenhagen City Archives. It's been one of the best moments from Denmark.
+
+I tried a multidimensional view of the data to know if the number of changing address has a relation with the number of children on average. Also, if people have preferences in living in some areas depending on the number of children they have.
+
+Variable names were modified and some details hidden due to confidentiality and preservation of data privacy.
 
 &nbsp;
 
