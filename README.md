@@ -25,6 +25,8 @@ group by persId)
 
 ```
 
+&nbsp;
+
 - [x] __Create a Cube__
 
 ```sql
@@ -36,6 +38,8 @@ where person.id = address.persId and person.id = totalChildren.persId and person
 
 ```
 
+&nbsp;
+
 - [x] __Materialize the Cube__
 
 ```sql
@@ -44,6 +48,8 @@ create table matPersonCube as (select birthdate, fromdate, street, strnro, lat, 
 job, count(*) c from personCube group by birthdate, fromdate, street, strnro, lat, lon, children, job)
 
 ```
+
+&nbsp;
 
 - [x] __Create indexes for Cube__
 
@@ -59,6 +65,8 @@ create index idx2 on matPersonCube(children, lat, lon, street, strnro);
 
 ```
 
+&nbsp;
+
 - [x] __Distribution of changing address__
 
 ```sql
@@ -69,6 +77,8 @@ group by children
 order by round(avg(children)) desc;
 
 ```
+
+&nbsp;
 
 - [x] __Distribution of locations in 2000__
 
@@ -88,13 +98,13 @@ order by round(avg(children)) desc;
 
 &nbsp;
  
- __Finding: The more children you have, the less you change locations.__
+ 💡 __Finding: The more children you have, the less you change locations.__
  
  ![img](results_cphpol.jpg)
  
   &nbsp;
  
- __Distribution of locations in 2000.__
+🔍 __Distribution of locations in 2000.__
  
  ![img](locations_cphpol.jpg)
 
