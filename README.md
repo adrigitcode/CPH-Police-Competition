@@ -1,12 +1,8 @@
-# CPH Police Competition - [IT University of Copenhagen](https://en.itu.dk/)
+# CPH Police Competition - IT University of Copenhagen
 
 ### SQL queries on the Copenhagen Police Records
 
-.: Award in the category 'Most interesting historical fact'  🏆 :.
-
-I was not expecting this honor during the ceremony, although I did have fun and tried my best when answering. 
-
-Forever grateful to professor [Rasmus Pagh](http://www.itu.dk/people/pagh/) and Jeppe Christensen from [Copenhagen City Archives](https://historieogkunst.kk.dk/en/artikel/copenhagen-city-archives). It's been one of the best moments from Denmark.
+Event organized by [Rasmus Pagh](http://www.itu.dk/people/pagh/) and Jeppe Christensen from [Copenhagen City Archives](https://historieogkunst.kk.dk/en/artikel/copenhagen-city-archives) during the course _Introduction to Database Design_.
 
 I tried a multidimensional view of the data to know if the number of changing address has a relation with the number of children on average. Also, if people have preferences in living in some areas depending on the number of children they have.
 
